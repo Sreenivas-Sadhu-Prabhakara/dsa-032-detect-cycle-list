@@ -12,6 +12,13 @@ Floyd's cycle detection. Advance `slow` one step and `fast` two steps per iterat
 
 **Complexity:** O(n) time, O(1) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
